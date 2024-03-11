@@ -57,6 +57,7 @@ function getIconFromKey(key) {
 }
 
 function getFlattenRoutes(routes) {
+  console.log(111)
   const mod = import.meta.glob('./pages/**/[a-z[]*.tsx');
   const res = [];
   function travel(_routes) {
