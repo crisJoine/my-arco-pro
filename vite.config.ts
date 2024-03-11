@@ -9,11 +9,18 @@ export default defineConfig({
   resolve: {
     alias: [{ find: '@', replacement: '/src' }],
   },
+  server: {
+    port: 8000,
+    proxy: {
+      '/api': 'http://localhost:3000',
+    },
+  },
   plugins: [
     react(),
     svgrPlugin({
       svgrOptions: {},
     }),
+
     vitePluginForArco({
       theme: '@arco-themes/react-arco-pro',
       modifyVars: {

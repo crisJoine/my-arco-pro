@@ -35,7 +35,8 @@
     "react-redux": "^7.2.6",
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
-    "redux": "^4.1.2"
+    "redux": "^4.1.2",
+    "xst-test-packagea": "^1.2.1"
   },
   "devDependencies": {
     "@arco-design/web-react": "^2.0.0",
@@ -63,7 +64,8 @@
     "stylelint-config-prettier": "^9.0.3",
     "stylelint-config-standard": "^24.0.0",
     "typescript": "^4.5.2",
-    "vite": "^2.6.14"
+    "vite": "^2.6.14",
+    "vite-plugin-mock": "^3.0.0"
   },
   "browserslist": {
     "production": [
